@@ -23,3 +23,6 @@ version:          2.1.0
 
 github:
   repo:           https://github.com/kinbotan/kinbotan.github.io
+
+collections:
+  - japan2019
