@@ -85,6 +85,10 @@ html {
 }
 
 /* Sidebar nav */
+.sidebar-title-accent {
+  display: inline-block;
+  color: #FEF160;
+}
 .sidebar-nav {
   margin-bottom: 1rem;
 }
@@ -97,6 +101,7 @@ a.sidebar-nav-item:focus {
   text-decoration: underline;
 }
 .sidebar-nav-item.active {
+  color: #FEF160;
   font-weight: bold;
 }
 
