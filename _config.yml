@@ -5,6 +5,7 @@
 # Permalinks
 permalink:        pretty
 # relative_permalinks: true
+include:		  ['_plugins']
 
 # Setup
 title:            kinbotan
