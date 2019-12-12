@@ -2,7 +2,6 @@
 _gh_pages
 _site
 .ruby-version
-_posts
 
 # Numerous always-ignore extensions
 *.diff

@@ -3,9 +3,8 @@
 # highlighter:      pygments
 
 # Permalinks
-permalink:        pretty
+# permalink:        pretty
 # relative_permalinks: true
-include:		  ['_plugins']
 
 # Setup
 title:            kinbotan
