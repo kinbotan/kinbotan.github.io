@@ -228,10 +228,17 @@ blockquote p:last-child {
 }
 
 img {
-  display: block;
-  max-width: 100%;
-  margin: 0 0 1rem;
   border-radius: 5px;
+  max-height: 28vh;
+}
+
+imgcontainer {
+  display: inline-block;
+}
+
+imgblock {
+  display: block;
+  width: 105%;
 }
 
 /* Tables */
