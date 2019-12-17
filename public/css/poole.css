@@ -227,18 +227,75 @@ blockquote p:last-child {
   }
 }
 
-img {
-  border-radius: 5px;
-  max-height: 28vh;
+.botan-list-container {
+  display: flex;
 }
 
-imgcontainer {
-  display: inline-block;
+.botan-list-item {
+  display: flex;
+  flex-grow: 1;
+  margin: 0.2rem;
+  align-items: center;
+}
+
+.botan-list-item img {
+  margin: 0.2rem;
 }
 
 imgblock {
-  display: block;
-  width: 105%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+imgblock imgcontainer {
+  flex-grow: 1;
+  margin: 0.2rem;
+}
+
+imgblock imgcontainer.small {
+  height: 25vh;
+}
+
+imgblock imgcontainer.medium {
+  height: 30vh;
+}
+
+imgblock imgcontainer.large {
+  height: 35vh;
+}
+
+imgblock imgcontainer.x-large {
+  height: 40vh;
+}
+
+imgblock imgcontainer img {
+  border-radius: 5px;
+  max-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
+}
+
+columns {
+  display: flex;
+}
+
+columns twocolumn {
+  flex-grow: 1;
+}
+
+columns twocolumn.left {
+  margin-right: 0.4rem;
+}
+
+columns twocolumn.right {
+  margin-left: 0.4rem;
+}
+
+columns twocolumn img {
+  border-radius: 5px;
+  max-height: 40vh;
 }
 
 /* Tables */

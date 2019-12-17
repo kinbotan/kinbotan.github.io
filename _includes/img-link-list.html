@@ -1,0 +1,10 @@
+<imgblock>
+	{% assign img_size = include.img-size %}
+	{% for img_hash in include.list %}
+		{% for img in img_hash %}
+			{% assign img_title = img[0] %}
+			{% assign img_src = img[1] %}
+			{% include img-link.html size=img_size src=img_src title=img_title %}
+		{% endfor %}
+	{% endfor %}
+</imgblock>

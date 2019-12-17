@@ -1,0 +1,8 @@
+<div class="botan-list-container">
+{% for item in include.list %}
+	<div class="botan-list-item">
+		<img src="{{ '/' | relative_url }}public/botan.png" height="25" width="25">
+		<div>{{ item }}</div>
+	</div>
+{% endfor %}
+</div>
