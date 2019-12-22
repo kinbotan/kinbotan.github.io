@@ -18,7 +18,7 @@ I was lucky enough to travel to Japan this past month, and this blog documents a
       </a>
     </h1>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+    <span class="post-date">{{ post.date | date_to_string }} {% if post.subtitle %} · {{ post.subtitle }} {% endif %}</span>
 
     {{ post.content }}
   </div>

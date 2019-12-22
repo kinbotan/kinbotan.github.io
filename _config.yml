@@ -25,5 +25,5 @@ github:
   repo:           https://github.com/kinbotan/kinbotan.github.io
 
 collections:
-  - japan2019
-  - dummy
+  japan2019:
+    output: true
