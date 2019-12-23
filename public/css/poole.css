@@ -248,6 +248,10 @@ imgblock {
   margin-bottom: 1rem;
 }
 
+imgcontainer img {
+  min-width: 100%;
+}
+
 imgblock imgcontainer {
   flex-grow: 1;
   margin: 0.2rem;
