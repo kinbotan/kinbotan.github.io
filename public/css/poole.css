@@ -285,6 +285,20 @@ columns {
   display: flex;
 }
 
+columns onecolumn {
+  flex-grow: 1;
+}
+
+columns onecolumn img {
+  border-radius: 5px;
+  max-width: 100%;
+}
+
+columns onecolumn.margined{
+  margin-right: 10vw;
+  margin-left: 10vw;
+}
+
 columns twocolumn {
   flex-grow: 1;
 }
