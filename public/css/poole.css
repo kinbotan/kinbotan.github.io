@@ -257,20 +257,24 @@ imgblock imgcontainer {
   margin: 0.2rem;
 }
 
+imgblock imgcontainer.x-small {
+  height: 10vw;
+}
+
 imgblock imgcontainer.small {
-  height: 25vh;
+  height: 15vw;
 }
 
 imgblock imgcontainer.medium {
-  height: 30vh;
+  height: 20vw;
 }
 
 imgblock imgcontainer.large {
-  height: 35vh;
+  height: 25vw;
 }
 
 imgblock imgcontainer.x-large {
-  height: 40vh;
+  height: 30vw;
 }
 
 imgblock imgcontainer img {
